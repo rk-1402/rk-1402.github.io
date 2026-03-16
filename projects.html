@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Ravi Kumar Gupta — Projects. CI/CD, AWS, GitOps, DevOps pipelines." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Ravi Kumar Gupta</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div id="cur"></div>
+<div id="cur2"></div>
+
+<nav>
+  <a href="index.html" class="logo">rk<em>.</em>dev</a>
+  <ul class="nav-links">
+    <li><a href="experience.html">Experience</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="resume.html" class="nav-btn">Resume ↓</a></li>
+  </ul>
+</nav>
+
+<div class="page-header">
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="page-eyebrow">Built Work</div>
+  <h1 class="page-title">My <span class="hl">Projects</span></h1>
+  <p class="page-sub">Hands-on projects demonstrating CI/CD automation, cloud deployments, and production-ready DevOps practices.</p>
+</div>
+
+<section class="section">
+  <div class="sec-label reveal">Portfolio</div>
+  <h2 class="sec-title reveal">All Projects</h2>
+
+  <div class="proj-grid reveal">
+
+    <!-- Project 1 -->
+    <div class="proj-card">
+      <span class="proj-arr">↗</span>
+      <div class="proj-type">CI/CD · AWS · Hackathon</div>
+      <div class="proj-name">Asset Management Dashboard Pipeline</div>
+      <p class="proj-desc">Implemented a full end-to-end CI/CD pipeline using AWS CodePipeline and GitHub to automate the deployment of a full-stack asset management dashboard to an EC2 instance. Containerised a MySQL database with Docker running on the same EC2 host and integrated it with a frontend generated via v0.ai — showcasing a complete DevOps workflow from code commit to live deployment.</p>
+      <div class="skill-tags">
+        <span class="tag">AWS CodePipeline</span><span class="tag">EC2</span>
+        <span class="tag">Docker</span><span class="tag">GitHub</span>
+        <span class="tag">MySQL</span><span class="tag">v0.ai</span>
+      </div>
+      <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--border);">
+        <p style="font-family:var(--mono);font-size:.65rem;color:var(--muted);margin-bottom:.8rem;letter-spacing:.06em;">KEY OUTCOMES</p>
+        <ul class="exp-bullets">
+          <li>Automated build, test, and deploy stages reducing deployment friction to zero-touch.</li>
+          <li>Docker-based MySQL ensured consistent data layer across environments.</li>
+          <li>Demonstrated full GitOps-style workflow on a real production EC2 setup.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="proj-card">
+      <span class="proj-arr">↗</span>
+      <div class="proj-type">GitOps · GitHub Actions · Static Site</div>
+      <div class="proj-name">Personal Portfolio with GitOps Pipeline</div>
+      <p class="proj-desc">Developed a responsive personal profile website to showcase professional experience and technical skills. Engineered a CI/CD pipeline using GitHub Actions that automatically builds and deploys the site to GitHub Pages on every git push — demonstrating production-ready DevOps practices including version control, automated deployment, and reduced human error in the release process.</p>
+      <div class="skill-tags">
+        <span class="tag">GitHub Actions</span><span class="tag">GitHub Pages</span>
+        <span class="tag">HTML / CSS</span><span class="tag">Git</span>
+      </div>
+      <div style="margin-top:1.5rem;padding-top:1.2rem;border-top:1px solid var(--border);">
+        <p style="font-family:var(--mono);font-size:.65rem;color:var(--muted);margin-bottom:.8rem;letter-spacing:.06em;">KEY OUTCOMES</p>
+        <ul class="exp-bullets">
+          <li>Automated deployment on every push via GitHub Actions workflow.</li>
+          <li>Zero manual deployment steps — fully hands-off release pipeline.</li>
+          <li>Live production site accessible at rk-1402.github.io.</li>
+        </ul>
+      </div>
+      <a href="https://rk-1402.github.io/" target="_blank" rel="noopener" class="proj-link">rk-1402.github.io ↗</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- UPCOMING / IDEAS -->
+<section class="section" style="border-bottom:none;">
+  <div class="sec-label reveal">Coming Soon</div>
+  <h2 class="sec-title reveal">On the Roadmap</h2>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1px;background:var(--border);border:1px solid var(--border);" class="reveal">
+    <div style="padding:2rem;background:var(--bg);opacity:.55;">
+      <div style="font-family:var(--mono);font-size:.62rem;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.7rem;">Planned · Kubernetes</div>
+      <div style="font-size:1rem;font-weight:700;color:var(--bright);margin-bottom:.5rem;">K8s Observability Stack</div>
+      <p style="font-size:.82rem;color:var(--muted);line-height:1.7;">Self-hosted Prometheus + Grafana + Loki on EKS with custom alerting rules and on-call routing.</p>
+      <div style="margin-top:1rem;display:flex;gap:.35rem;flex-wrap:wrap;"><span class="tag">EKS</span><span class="tag">Helm</span><span class="tag">Prometheus</span><span class="tag">Loki</span></div>
+    </div>
+    <div style="padding:2rem;background:var(--bg);opacity:.55;">
+      <div style="font-family:var(--mono);font-size:.62rem;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.7rem;">Planned · IaC</div>
+      <div style="font-size:1rem;font-weight:700;color:var(--bright);margin-bottom:.5rem;">Multi-Account AWS Landing Zone</div>
+      <p style="font-size:.82rem;color:var(--muted);line-height:1.7;">Terraform modules for multi-account AWS setup with Control Tower, SSO, centralised logging, and network segmentation.</p>
+      <div style="margin-top:1rem;display:flex;gap:.35rem;flex-wrap:wrap;"><span class="tag">Terraform</span><span class="tag">AWS Organizations</span><span class="tag">Control Tower</span></div>
+    </div>
+    <div style="padding:2rem;background:var(--bg);opacity:.55;">
+      <div style="font-family:var(--mono);font-size:.62rem;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.7rem;">Planned · Security</div>
+      <div style="font-size:1rem;font-weight:700;color:var(--bright);margin-bottom:.5rem;">AWS Security Hardening Playbook</div>
+      <p style="font-size:.82rem;color:var(--muted);line-height:1.7;">Automated security posture assessment using AWS Config, Security Hub, and GuardDuty with Ansible remediation playbooks.</p>
+      <div style="margin-top:1rem;display:flex;gap:.35rem;flex-wrap:wrap;"><span class="tag">AWS Config</span><span class="tag">Security Hub</span><span class="tag">Ansible</span></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-l">Built by <strong>Ravi Kumar Gupta</strong> · Noida, India</div>
+  <div class="foot-r">
+    <a href="https://github.com/rk-1402" target="_blank" rel="noopener" class="foot-link">GitHub ↗</a>
+    <a href="https://linkedin.com/in/rk1402" target="_blank" rel="noopener" class="foot-link">LinkedIn ↗</a>
+    <a href="resume.html" class="foot-link">Resume</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

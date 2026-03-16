@@ -1,41 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Resume - DevOps Engineer">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Resume | DevOps Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="description" content="Download Ravi Kumar Gupta's Resume — Senior DevOps & Cloud Engineer." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume | Ravi Kumar Gupta</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-<header class="navbar">
-  <h2 class="logo">YourName.dev</h2>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="skills.html">Skills</a>
-    <a href="contact.html">Contact</a>
-    <a href="resume.html">Resume</a>
-  </nav>
-</header>
+<div id="cur"></div>
+<div id="cur2"></div>
 
-<section class="page-section">
-  <h1>Resume</h1>
+<nav>
+  <a href="index.html" class="logo">rk<em>.</em>dev</a>
+  <ul class="nav-links">
+    <li><a href="experience.html">Experience</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="resume.html" class="nav-btn">Resume ↓</a></li>
+  </ul>
+</nav>
 
-  <a href="assets/YourResume.pdf" class="download-btn" download>Download PDF</a>
+<div class="page-header">
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="page-eyebrow">Download</div>
+  <h1 class="page-title">My <span class="hl">Resume</span></h1>
+  <p class="page-sub">Full CV covering 5+ years of experience in DevOps, cloud infrastructure, CI/CD, and IT operations.</p>
+</div>
 
-  <div class="resume-summary">
-    <h2>Professional Summary</h2>
-    <p>
-      DevOps-focused IT Engineer experienced in AWS infrastructure,
-      CI/CD automation, Dockerization, server management, and cost optimization.
-    </p>
+<section class="section">
+  <div class="resume-layout reveal">
+
+    <!-- Resume mock preview -->
+    <div class="resume-preview">
+      <div class="resume-preview-bar">
+        <span class="dot" style="background:#ff5f57"></span>
+        <span class="dot" style="background:#febc2e"></span>
+        <span class="dot" style="background:#28c840"></span>
+        <span>Ravi_Kumar_Gupta_Resume.pdf</span>
+      </div>
+      <div class="resume-mock">
+        <div class="rm-name">Ravi Kumar Gupta</div>
+        <div class="rm-title">DevOps / Cloud Engineer</div>
+        <div class="rm-contact-row">
+          <span>📍 Noida, India</span>
+          <span>✉ ravi1493kumar@gmail.com</span>
+          <span>☎ +91 94670 16675</span>
+        </div>
+        <div class="rm-contact-row">
+          <span>🔗 linkedin.com/in/rk1402</span>
+          <span>⌥ github.com/rk-1402</span>
+        </div>
+
+        <div class="rm-divider"></div>
+        <div class="rm-section-title">Technical Skills</div>
+        <div class="rm-skill-group">
+          <span class="rm-tag">EC2</span><span class="rm-tag">ECS</span><span class="rm-tag">Lambda</span>
+          <span class="rm-tag">Fargate</span><span class="rm-tag">S3</span><span class="rm-tag">VPC</span>
+          <span class="rm-tag">Route 53</span><span class="rm-tag">IAM</span><span class="rm-tag">CloudWatch</span>
+          <span class="rm-tag">Docker</span><span class="rm-tag">Kubernetes</span><span class="rm-tag">Terraform</span>
+          <span class="rm-tag">Ansible</span><span class="rm-tag">Jenkins</span><span class="rm-tag">CodePipeline</span>
+          <span class="rm-tag">GitHub Actions</span><span class="rm-tag">Prometheus</span><span class="rm-tag">Grafana</span>
+        </div>
+
+        <div class="rm-divider"></div>
+        <div class="rm-section-title">Experience</div>
+
+        <div class="rm-exp-row">
+          <div class="rm-exp-title">Senior IT & Security Engineer (DevOps / Cloud)</div>
+          <div class="rm-exp-sub">Six Dee Netad Solutions Pvt. Ltd. · Oct 2021 – Present</div>
+          <div class="rm-exp-bullet">Managed multi-account AWS using IAM Identity Center, built CI/CD pipelines with CodePipeline for ECS & Lambda.</div>
+          <div class="rm-exp-bullet">Configured VPC, ALB, Route 53, CloudWatch; managed Docker workloads on ECS Fargate.</div>
+          <div class="rm-exp-bullet">Administered Microsoft 365, Entra ID, Sophos & FortiGate firewalls.</div>
+        </div>
+
+        <div class="rm-exp-row">
+          <div class="rm-exp-title">IT Executive</div>
+          <div class="rm-exp-sub">Intero Solutions Pvt. Ltd. · Sept 2020 – Oct 2021</div>
+          <div class="rm-exp-bullet">Administered Windows Server, VMware virtualisation, AD/DNS/DHCP, and Sophos Firewall.</div>
+        </div>
+
+        <div class="rm-exp-row">
+          <div class="rm-exp-title">Desktop Support Engineer</div>
+          <div class="rm-exp-sub">Vayam Info Solutions (HDFC Bank) · Oct 2018 – Dec 2019</div>
+          <div class="rm-exp-bullet">Delivered L1/L2 support for banking users; managed Citrix VDI and Windows environments.</div>
+        </div>
+
+        <div class="rm-divider"></div>
+        <div class="rm-section-title">Projects</div>
+        <div class="rm-exp-row">
+          <div class="rm-exp-title">Asset Management Dashboard CI/CD Pipeline</div>
+          <div class="rm-exp-bullet">AWS CodePipeline + GitHub → EC2 with Dockerised MySQL. Full automated deployment.</div>
+        </div>
+        <div class="rm-exp-row">
+          <div class="rm-exp-title">Personal Portfolio with GitHub Actions GitOps</div>
+          <div class="rm-exp-bullet">Auto-deploy to GitHub Pages on push · rk-1402.github.io</div>
+        </div>
+
+        <div class="rm-divider"></div>
+        <div class="rm-section-title">Education</div>
+        <div class="rm-exp-row">
+          <div class="rm-exp-title">PG Diploma in Computer Application · Kurukshetra University (2016–17)</div>
+        </div>
+        <div class="rm-exp-row">
+          <div class="rm-exp-title">Bachelor of Computer Science · Kurukshetra University (2012–15)</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="resume-sidebar">
+
+      <!-- Download card -->
+      <div class="resume-card">
+        <h4>Download Resume</h4>
+        <!-- 
+          IMPORTANT: Replace the href below with the actual path to your PDF resume.
+          Place your resume PDF in the same folder as this HTML file and name it:
+          Ravi_Kumar_Gupta_Resume.pdf
+          Then the link below will work correctly.
+        -->
+        <a href="Ravi_Kumar_Gupta_Resume.pdf" download="Ravi_Kumar_Gupta_Resume.pdf" class="download-btn-big">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download PDF
+        </a>
+        <p style="font-family:var(--mono);font-size:.62rem;color:var(--muted);text-align:center;margin-top:.9rem;line-height:1.7;">
+          Place your <code style="color:var(--accent)">Ravi_Kumar_Gupta_Resume.pdf</code> in the site folder for the download to work.
+        </p>
+      </div>
+
+      <!-- File info -->
+      <div class="resume-card">
+        <h4>File Details</h4>
+        <div class="resume-meta-list">
+          <div class="resume-meta-row"><span class="resume-meta-key">Format</span><span class="resume-meta-val">PDF</span></div>
+          <div class="resume-meta-row"><span class="resume-meta-key">Filename</span><span class="resume-meta-val" style="font-size:.7rem;">Ravi_Kumar_Gupta_Resume.pdf</span></div>
+          <div class="resume-meta-row"><span class="resume-meta-key">Last Updated</span><span class="resume-meta-val">2025</span></div>
+          <div class="resume-meta-row"><span class="resume-meta-key">Experience</span><span class="resume-meta-val">3+ years DevOps</span></div>
+          <div class="resume-meta-row"><span class="resume-meta-key">Location</span><span class="resume-meta-val">Noida, India</span></div>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <div class="resume-card">
+        <h4>Certifications</h4>
+        <div class="cert-item">
+          <div class="cert-dot"></div>
+          <div>
+            <div class="cert-text">AWS Cloud Technical Essentials</div>
+            <div class="cert-sub">Amazon Web Services — Coursera</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick links -->
+      <div class="resume-card">
+        <h4>Quick Links</h4>
+        <div style="display:flex;flex-direction:column;gap:.6rem;">
+          <a href="https://linkedin.com/in/rk1402" target="_blank" rel="noopener" class="btn btn-ghost" style="justify-content:center;padding:.6rem 1rem;font-size:.65rem;">LinkedIn Profile ↗</a>
+          <a href="https://github.com/rk-1402" target="_blank" rel="noopener" class="btn btn-ghost" style="justify-content:center;padding:.6rem 1rem;font-size:.65rem;">GitHub Profile ↗</a>
+          <a href="https://rk-1402.github.io/" target="_blank" rel="noopener" class="btn btn-ghost" style="justify-content:center;padding:.6rem 1rem;font-size:.65rem;">Live Portfolio ↗</a>
+          <a href="contact.html" class="btn btn-ghost" style="justify-content:center;padding:.6rem 1rem;font-size:.65rem;">Send a Message</a>
+        </div>
+      </div>
+
+    </div>
   </div>
-
-  <iframe src="assets/YourResume.pdf" width="100%" height="600px"></iframe>
-
 </section>
+
+<footer>
+  <div class="foot-l">Built by <strong>Ravi Kumar Gupta</strong> · Noida, India</div>
+  <div class="foot-r">
+    <a href="https://github.com/rk-1402" target="_blank" rel="noopener" class="foot-link">GitHub ↗</a>
+    <a href="https://linkedin.com/in/rk1402" target="_blank" rel="noopener" class="foot-link">LinkedIn ↗</a>
+    <a href="resume.html" class="foot-link">Resume</a>
+  </div>
+</footer>
 
 <script src="script.js"></script>
 </body>

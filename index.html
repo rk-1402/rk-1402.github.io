@@ -2,45 +2,161 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="description" content="DevOps Engineer Portfolio - Cloud, CI/CD, AWS, Docker" />
-  <meta name="keywords" content="DevOps, AWS, Docker, CI/CD, Cloud Engineer Portfolio" />
+  <meta name="description" content="Ravi Kumar Gupta — Senior DevOps & Cloud Engineer. AWS, Docker, Kubernetes, CI/CD, Terraform." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name | DevOps Engineer</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Ravi Kumar Gupta | DevOps & Cloud Engineer</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="navbar">
-    <h2 class="logo">YourName.dev</h2>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="skills.html">Skills</a>
-      <a href="contact.html">Contact</a>
-      <a href="resume.html">Resume</a>
-    </nav>
-  </header>
 
-  <section class="hero" style="background-image:url('assets/images/background.jpg')">
-    <div class="hero-content">
-      <h1 style="font-size: 64px; color: #f5f3ff; text-shadow: 0 0 8px rgba(124, 58, 237, 0.5);"> 
-        Ravi Kumar Gupta
-      </h1>
-      <h2>DevOps Engineer / Cloud Engineer</h2>
-      <p>Building reliable cloud infrastructure & CI/CD pipelines</p>
+<div id="cur"></div>
+<div id="cur2"></div>
 
-      <div class="cta-buttons">
-        <a href="about.html">About</a>
-        <a href="skills.html">Skills</a>
-        <a href="resume.html">Resume</a>
-        <a href="contact.html">Contact</a>
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="logo">rk<em>.</em>dev</a>
+  <ul class="nav-links">
+    <li><a href="experience.html">Experience</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="resume.html" class="nav-btn">Resume ↓</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="hero-layout">
+    <div>
+      <div class="hero-eyebrow">Open to new opportunities</div>
+      <h1>Ravi Kumar<br><span class="hl">Gupta</span></h1>
+      <p class="hero-role"><span id="typed-role">DevOps Engineer</span>&nbsp;<span style="color:var(--muted)">·</span>&nbsp;<span>Cloud Infrastructure</span></p>
+      <p class="hero-bio">3+ years building and operating cloud infrastructure at scale — from multi-account AWS platforms and Docker-based ECS workloads to automated CI/CD pipelines. I turn complexity into reliable, cost-efficient systems.</p>
+      <div class="hero-meta">
+        <span class="meta-chip">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Noida, India
+        </span>
+        <span class="meta-chip">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+          Six Dee Netad Solutions
+        </span>
+        <span class="meta-chip">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Oct 2021 – Present
+        </span>
+      </div>
+      <div class="cta-row">
+        <a href="contact.html" class="btn btn-solid">Get in Touch</a>
+        <a href="experience.html" class="btn btn-ghost">View Experience</a>
+        <a href="https://github.com/rk-1402" target="_blank" rel="noopener" class="btn btn-ghost">GitHub ↗</a>
       </div>
     </div>
-  </section>
 
- <footer class="footer">
-  <a href="https://github.com/rk-1402" target="_blank" rel="noopener">
-    <img src="assets/images/icons8-github-100.png" alt="GitHub" class="github-logo">
-  </a>
+    <!-- Terminal -->
+    <div class="terminal">
+      <div class="t-bar">
+        <span class="dot" style="background:#ff5f57"></span>
+        <span class="dot" style="background:#febc2e"></span>
+        <span class="dot" style="background:#28c840"></span>
+        <span class="ttl">ravi@aws-prod ~</span>
+      </div>
+      <div class="t-body">
+        <div><span class="t-p">$ </span><span class="t-c">aws ecs list-services --cluster prod</span></div>
+        <div class="t-o">serviceArns: [api, worker, scheduler]</div>
+        <div>&nbsp;</div>
+        <div><span class="t-p">$ </span><span class="t-c">terraform plan -out=tfplan</span></div>
+        <div class="t-o">Refreshing state... done.</div>
+        <div><span class="t-a">Plan: 3 to add, 1 to change, 0 to destroy</span></div>
+        <div>&nbsp;</div>
+        <div><span class="t-p">$ </span><span class="t-c">kubectl get pods -n production</span></div>
+        <div><span class="t-a">api-7d4f9b&nbsp;&nbsp;&nbsp;&nbsp;1/1&nbsp;&nbsp;Running</span></div>
+        <div><span class="t-a">worker-6bc8d&nbsp;&nbsp;1/1&nbsp;&nbsp;Running</span></div>
+        <div>&nbsp;</div>
+        <div><span class="t-p">$ </span><span class="t-c">aws ce get-cost-and-usage</span></div>
+        <div><span class="t-w">Monthly spend optimised ↓ 18%</span></div>
+        <div>&nbsp;</div>
+        <div><span class="t-p">$ </span><span class="blink"></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="ticker-track">
+    <div class="t-item"><span>▸</span>AWS</div><div class="t-item"><span>▸</span>ECS / Fargate</div>
+    <div class="t-item"><span>▸</span>Docker</div><div class="t-item"><span>▸</span>Kubernetes</div>
+    <div class="t-item"><span>▸</span>Terraform</div><div class="t-item"><span>▸</span>Ansible</div>
+    <div class="t-item"><span>▸</span>GitHub Actions</div><div class="t-item"><span>▸</span>CodePipeline</div>
+    <div class="t-item"><span>▸</span>Jenkins</div><div class="t-item"><span>▸</span>Prometheus</div>
+    <div class="t-item"><span>▸</span>Grafana</div><div class="t-item"><span>▸</span>CloudWatch</div>
+    <div class="t-item"><span>▸</span>Route 53</div><div class="t-item"><span>▸</span>Lambda</div>
+    <div class="t-item"><span>▸</span>Python</div><div class="t-item"><span>▸</span>Bash</div>
+    <div class="t-item"><span>▸</span>FortiGate</div><div class="t-item"><span>▸</span>IAM Identity Center</div>
+    <!-- dup -->
+    <div class="t-item"><span>▸</span>AWS</div><div class="t-item"><span>▸</span>ECS / Fargate</div>
+    <div class="t-item"><span>▸</span>Docker</div><div class="t-item"><span>▸</span>Kubernetes</div>
+    <div class="t-item"><span>▸</span>Terraform</div><div class="t-item"><span>▸</span>Ansible</div>
+    <div class="t-item"><span>▸</span>GitHub Actions</div><div class="t-item"><span>▸</span>CodePipeline</div>
+    <div class="t-item"><span>▸</span>Jenkins</div><div class="t-item"><span>▸</span>Prometheus</div>
+    <div class="t-item"><span>▸</span>Grafana</div><div class="t-item"><span>▸</span>CloudWatch</div>
+    <div class="t-item"><span>▸</span>Route 53</div><div class="t-item"><span>▸</span>Lambda</div>
+    <div class="t-item"><span>▸</span>Python</div><div class="t-item"><span>▸</span>Bash</div>
+    <div class="t-item"><span>▸</span>FortiGate</div><div class="t-item"><span>▸</span>IAM Identity Center</div>
+  </div>
+</div>
+
+<!-- STATS -->
+<div class="stats reveal">
+  <div class="stat"><div class="stat-n">3<sup>+</sup></div><div class="stat-l">Years in Cloud & DevOps</div><div class="stat-bg">☁</div></div>
+  <div class="stat"><div class="stat-n">20<sup>+</sup></div><div class="stat-l">AWS Services Mastered</div><div class="stat-bg">⚡</div></div>
+  <div class="stat"><div class="stat-n">3</div><div class="stat-l">Companies Served</div><div class="stat-bg">🏢</div></div>
+  <div class="stat"><div class="stat-n">2</div><div class="stat-l">Live Projects Shipped</div><div class="stat-bg">🚀</div></div>
+</div>
+
+<!-- QUICK LINKS -->
+<section class="section" style="border-bottom:none;">
+  <div class="sec-label reveal">Explore</div>
+  <h2 class="sec-title reveal">What's Inside</h2>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1px;background:var(--border);border:1px solid var(--border);" class="reveal">
+    <a href="experience.html" style="text-decoration:none;display:block;padding:2rem;background:var(--bg);transition:background .25s;" onmouseenter="this.style.background='var(--surface)'" onmouseleave="this.style.background='var(--bg)'">
+      <div style="font-size:1.5rem;margin-bottom:.8rem;">⚙</div>
+      <div style="font-family:var(--body);font-size:1rem;font-weight:700;color:var(--bright);margin-bottom:.4rem;">Experience</div>
+      <div style="font-family:var(--mono);font-size:.65rem;color:var(--muted);">3 roles · 2018–present</div>
+    </a>
+    <a href="skills.html" style="text-decoration:none;display:block;padding:2rem;background:var(--bg);transition:background .25s;" onmouseenter="this.style.background='var(--surface)'" onmouseleave="this.style.background='var(--bg)'">
+      <div style="font-size:1.5rem;margin-bottom:.8rem;">⚡</div>
+      <div style="font-family:var(--body);font-size:1rem;font-weight:700;color:var(--bright);margin-bottom:.4rem;">Skills</div>
+      <div style="font-family:var(--mono);font-size:.65rem;color:var(--muted);">40+ tools & technologies</div>
+    </a>
+    <a href="projects.html" style="text-decoration:none;display:block;padding:2rem;background:var(--bg);transition:background .25s;" onmouseenter="this.style.background='var(--surface)'" onmouseleave="this.style.background='var(--bg)'">
+      <div style="font-size:1.5rem;margin-bottom:.8rem;">🚀</div>
+      <div style="font-family:var(--body);font-size:1rem;font-weight:700;color:var(--bright);margin-bottom:.4rem;">Projects</div>
+      <div style="font-family:var(--mono);font-size:.65rem;color:var(--muted);">CI/CD · AWS · GitOps</div>
+    </a>
+    <a href="contact.html" style="text-decoration:none;display:block;padding:2rem;background:var(--bg);transition:background .25s;" onmouseenter="this.style.background='var(--surface)'" onmouseleave="this.style.background='var(--bg)'">
+      <div style="font-size:1.5rem;margin-bottom:.8rem;">✉</div>
+      <div style="font-family:var(--body);font-size:1rem;font-weight:700;color:var(--bright);margin-bottom:.4rem;">Contact</div>
+      <div style="font-family:var(--mono);font-size:.65rem;color:var(--muted);">Open for opportunities</div>
+    </a>
+    <a href="resume.html" style="text-decoration:none;display:block;padding:2rem;background:var(--bg);transition:background .25s;" onmouseenter="this.style.background='var(--surface)'" onmouseleave="this.style.background='var(--bg)'">
+      <div style="font-size:1.5rem;margin-bottom:.8rem;">📄</div>
+      <div style="font-family:var(--body);font-size:1rem;font-weight:700;color:var(--bright);margin-bottom:.4rem;">Resume</div>
+      <div style="font-family:var(--mono);font-size:.65rem;color:var(--muted);">Download PDF</div>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-l">Built by <strong>Ravi Kumar Gupta</strong> · Noida, India</div>
+  <div class="foot-r">
+    <a href="https://github.com/rk-1402" target="_blank" rel="noopener" class="foot-link">GitHub ↗</a>
+    <a href="https://linkedin.com/in/rk1402" target="_blank" rel="noopener" class="foot-link">LinkedIn ↗</a>
+    <a href="resume.html" class="foot-link">Resume</a>
+  </div>
 </footer>
 
 <script src="script.js"></script>
